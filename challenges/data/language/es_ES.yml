@@ -23,9 +23,9 @@ common:
   none: "Ninguna"
   confirm: "Confirmar"
   cancel: "Cancelar"
-  openMenu: "Open Menu"
-  settings: "Settings"
-  switch: "Switch"
+  openMenu: "Abrir menú"
+  settings: "Ajustes"
+  switch: "Interruptor"
 #-----------------------------------------#
 #Command Responses            #
 #Every command supports MiniMessages   #
@@ -36,23 +36,23 @@ command:
     start: "Challenges <green><b>started</b></green>! (<input-1>)"
     pause: "Challenges temporary <red>paused</red>! (<input-1>)"
     continue: "Challenges <green>resumed</green>! (<input-1>)"
-    failed: "<red>Failed to start Challenges! Check if at least one Challenge is enabled and enough players are online (multiplayer challenges)"
-    alreadyOn: "<red>Challenges are already started!"
-    alreadyOff: "<red>Challenges are already stopped!"
+    failed: "<red>No se han podido iniciar los desafíos. Comprueba si hay al menos un desafío activado y suficientes jugadores conectados (desafíos multijugador)"
+    alreadyOn: "<red>¡Desafíos ya iniciados!"
+    alreadyOff: "<red>¡Los retos ya están parados!"
   notRegistered: "<red>¡Activa el módulo para usar este comando!"
   heal:
-    single: "<green>You healed yourself"
+    single: "<green>Te curaste a ti mismo"
     multiple: "<green>You healed <input-1> players"
-  reset: "<red><b>Server Worlds Reset\n<white>(Initiated by <input-1>)"
+  reset: "<red><b>Restablecimiento de los mundos del servidor <white>(Iniciado por <input-1>)"
   position:
-    get: "<grey>Position <input-1> >> <blue><input-2>"
-    new: "<grey>Created new position <blue><input-1> <grey>(<input-2>)"
-    remove: "<grey>Removed position <blue><input-1>"
-    reset: "<red>Resetted all saved positions!"
+    get: "<grey>Posición <input-1> >> <blue><input-2>"
+    new: "<grey>Creado nueva posición <blue><input-1> <grey>(<input-2>)"
+    remove: "<grey>Posición eliminada <blue><input-1>"
+    reset: "Restablecidas todas las posiciones guardadas!"
   backpack:
-    setGlobal: "<grey>Switched backpack type to <blue><input-1>"
-    setSize: "<grey>Changed backpack size to <blue><input-1></blue> rows"
-    reset: "<red>Cleared all backpacks including the global!"
+    setGlobal: "<grey>Cambio del tipo de mochila a <blue><input-1>"
+    setSize: "<grey>Cambiado el tamaño de la mochila a filas <blue><input-1></blue>"
+    reset: "<red>¡Despejadas todas las mochilas, incluida la global!"
   hide:
     hide: "<grey>You are now <red>hidden"
     show: "<grey>You are now <green>visible"
